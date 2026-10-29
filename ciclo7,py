@@ -1,0 +1,7 @@
+llaves = ["plata", "bronce","oro", "hierro"]
+
+for llave in llaves:
+    print("revision de llave de ", llave)
+    if llave == "oro":
+        print("la encontre")
+        break
